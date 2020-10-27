@@ -12,3 +12,10 @@ Definire il file .env in questo modo e metterlo nella root del progetto:
 TOKEN=your-token
 NEWS_CHANNEL=@your-news-channel
 ```
+
+# Differenze con il vecchio bot
+I file sono gestiti tramite TinyDB, un database.
+
+Ogni file ha il suo DB.
+
+Sono sempre JSON ma rendono più semplice la cancellazione, l'inserimento ecc. inoltre vengono gestite mediante semplici query.
