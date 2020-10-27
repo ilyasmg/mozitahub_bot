@@ -6,9 +6,8 @@ def is_env_defined(variable):
     if variable in os.environ:
         r = os.getenv(variable)
 
-        if r is "":
+        if r == "":
             raise Exception(variable + " is null. Check your .env file and try again!")
-
         return r
     else:
         raise Exception(variable + " is not present. Check your .env file and try again!")
