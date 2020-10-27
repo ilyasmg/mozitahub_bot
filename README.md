@@ -8,6 +8,7 @@ pip install -r requirements.txt
 
 Definire il file .env in questo modo e metterlo nella root del progetto:
 
+```
 TOKEN=your-token
-
 NEWS_CHANNEL=@your-news-channel
+```
